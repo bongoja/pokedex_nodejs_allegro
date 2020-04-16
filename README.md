@@ -11,3 +11,5 @@ Project includes:
 5. Favicon etc.
 
 Prject made in Node.js using HTML, CSS, Js, Bootstrap
+
+by Przemysław Olewicz
