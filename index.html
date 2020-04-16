@@ -15,18 +15,34 @@
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="stylesheet.css" />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet" />
+    <link rel="icon" href="https://icon-library.net/images/icon-pokemon/icon-pokemon-0.jpg">
   </head>
   <body>
     <!-- Nav bar + dropdown-->
+
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <p class="navbar-brand" href="#">Menu</p>
+      <p class="navbar-brand" href="#">Current type:</p>
+      <p id="currentType"></p>
+      <div style="width: 10px;">
+      </div>
       <button type="button" class="btn btn-primary" onclick="fetchPokemon()">Show All Types</button>
+
       <div style="width:100px;">
         <p class="stype">Choose type:</p>
       </div>
-      <!-- <div id="test">
-      </div> -->
       <select name="navyOp" id="dropdown" onchange="fetchPokemon(this.value);"> </select>
+      <div style="width: 10px;">
+      </div>
+      <div style="width:50px;">
+      </div>
+      <!-- Search input (not woring yet...) -->
+      <!-- <form autocomplete="off" action="/action_page.php">
+        <div class="autocomplete" style="width:300px;">
+          <input id="myInput" type="text" name="myCountry" placeholder="Find pokemon">
+        </div>
+        <input type="submit">
+      </form> -->
     </nav>
     <div class="container">
       <h1>Pokedex</h1>
