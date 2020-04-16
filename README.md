@@ -1,7 +1,6 @@
 # Pokedex made in Node.js using PokeAPI
 
-1. To start go into project folder and run $ npm i 
-2. After installation run $ npm start
+To start go into project folder in console and run $ npm start
 
 Project includes:
 
