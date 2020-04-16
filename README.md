@@ -10,6 +10,6 @@ Project includes:
 4. Basic info of given Pokemon
 5. Favicon etc.
 
-Prject made in Node.js using HTML, CSS, Js, Bootstrap
+Project made in Node.js using HTML, CSS, Js, Bootstrap
 
 by Przemysław Olewicz
